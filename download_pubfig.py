@@ -15,4 +15,3 @@ with open('dev_urls.txt', 'r', encoding='utf-8') as f:
     for i, x in enumerate(data.splitlines()[2:]):
         data_urls.append([x for x in data.split('\t')])
 print(data_urls)
-    
